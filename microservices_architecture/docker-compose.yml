@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@host.docker.internal:8086/eczane_db
+    restart: always
+    command: uvicorn app.api.main:app --host 0.0.0.0 --port 8000 --reload
+
+  scheduler:
+    build: .
+    volumes:
+      - ./:/app
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@host.docker.internal:8086/eczane_db
+    restart: always
+    command: python run_scraper.py

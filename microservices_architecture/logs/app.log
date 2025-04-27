@@ -1,0 +1,72 @@
+2025-04-27 18:37:54 | INFO | Eczane API başlatılıyor...
+2025-04-27 18:37:56 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:37:56 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:40:17 | INFO | Eczane API başlatılıyor...
+2025-04-27 18:40:17 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:40:17 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:41:59 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:41:59 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:41:59 | INFO     | __main__:<module>:31 - Eczane Scraper başlatılıyor...
+2025-04-27 18:41:59 | INFO     | app.scraper.scheduler:setup_scheduler:33 - Scheduler ayarlandı. Her gün saat 15:00'de çalışacak.
+2025-04-27 18:41:59 | INFO     | __main__:<module>:41 - Scheduler başlatıldı. Her gün saat 15:00'de çalışacak.
+2025-04-27 18:41:59 | INFO     | __main__:<module>:44 - Başlangıç verisi çekiliyor...
+2025-04-27 18:41:59 | INFO     | app.scraper.service:scrape_and_save:23 - Veri çekme işlemi başlatılıyor...
+2025-04-27 18:42:00 | INFO     | app.scraper.service:scrape_and_save:33 - 5 adet eczane verisi çekildi.
+2025-04-27 18:42:00 | INFO     | app.scraper.service:save_to_database:54 - Bugünün tarihi: 2025-04-27
+2025-04-27 18:42:02 | INFO     | app.scraper.service:save_to_database:87 - Yeni eczane kaydı oluşturuldu: Uygar Eczanesi
+2025-04-27 18:42:02 | INFO     | app.scraper.service:save_to_database:118 - Yeni nöbetçi eczane kaydı oluşturuldu: Uygar Eczanesi - 2025-04-27
+2025-04-27 18:42:02 | INFO     | app.scraper.service:save_to_database:87 - Yeni eczane kaydı oluşturuldu: Pelin Deniz Eczanesi
+2025-04-27 18:42:02 | INFO     | app.scraper.service:save_to_database:118 - Yeni nöbetçi eczane kaydı oluşturuldu: Pelin Deniz Eczanesi - 2025-04-27
+2025-04-27 18:42:02 | INFO     | app.scraper.service:save_to_database:64 - Vereseli Çınla Eczanesi için koordinatlar hesaplanıyor...
+2025-04-27 18:42:03 | WARNING  | app.utils.geocode:geocode_address:39 - Geopy ile koordinat bulunamadı: Tuzcumurat Mahallesi, Hamdi Bey Cd. Çayiçi  56/C, Edremit, Turkey
+2025-04-27 18:42:04 | WARNING  | app.utils.geocode:geocode_address:67 - API ile koordinat bulunamadı: Tuzcumurat Mahallesi, Hamdi Bey Cd. Çayiçi  56/C, Edremit, Turkey
+2025-04-27 18:42:04 | WARNING  | app.scraper.service:save_to_database:71 - Vereseli Çınla Eczanesi için koordinatlar bulunamadı
+2025-04-27 18:42:04 | INFO     | app.scraper.service:save_to_database:87 - Yeni eczane kaydı oluşturuldu: Vereseli Çınla Eczanesi
+2025-04-27 18:42:04 | INFO     | app.scraper.service:save_to_database:118 - Yeni nöbetçi eczane kaydı oluşturuldu: Vereseli Çınla Eczanesi - 2025-04-27
+2025-04-27 18:42:04 | INFO     | app.scraper.service:save_to_database:64 - Güneş Eczanesi için koordinatlar hesaplanıyor...
+2025-04-27 18:42:05 | WARNING  | app.utils.geocode:geocode_address:39 - Geopy ile koordinat bulunamadı: Kocaseyid Cd. No:70/1, Edremit, Turkey
+2025-04-27 18:42:06 | WARNING  | app.utils.geocode:geocode_address:67 - API ile koordinat bulunamadı: Kocaseyid Cd. No:70/1, Edremit, Turkey
+2025-04-27 18:42:06 | WARNING  | app.scraper.service:save_to_database:71 - Güneş Eczanesi için koordinatlar bulunamadı
+2025-04-27 18:42:06 | INFO     | app.scraper.service:save_to_database:87 - Yeni eczane kaydı oluşturuldu: Güneş Eczanesi
+2025-04-27 18:42:06 | INFO     | app.scraper.service:save_to_database:118 - Yeni nöbetçi eczane kaydı oluşturuldu: Güneş Eczanesi - 2025-04-27
+2025-04-27 18:42:06 | INFO     | app.scraper.service:save_to_database:87 - Yeni eczane kaydı oluşturuldu: Eylül Eczanesi
+2025-04-27 18:42:06 | INFO     | app.scraper.service:save_to_database:118 - Yeni nöbetçi eczane kaydı oluşturuldu: Eylül Eczanesi - 2025-04-27
+2025-04-27 18:42:06 | INFO     | app.scraper.service:scrape_and_save:38 - Veri çekme ve kaydetme işlemi tamamlandı.
+2025-04-27 18:46:13 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:46:13 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:46:32 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:46:32 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:46:45 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:46:45 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:47:02 | INFO | Eczane API başlatılıyor...
+2025-04-27 18:47:03 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:47:03 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:47:56 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:47:56 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:49:03 | INFO     | __main__:<module>:52 - Uygulama kapatılıyor...
+2025-04-27 18:49:07 | INFO | Veritabanına bağlanılıyor: postgresql://postgres:****@localhost:8086/eczane_db
+2025-04-27 18:49:07 | INFO | Veritabanı bağlantısı başarılı
+2025-04-27 18:49:07 | INFO     | __main__:<module>:31 - Eczane Scraper başlatılıyor...
+2025-04-27 18:49:07 | INFO     | app.scraper.scheduler:setup_scheduler:33 - Scheduler ayarlandı. Her gün saat 15:00'de çalışacak.
+2025-04-27 18:49:07 | INFO     | __main__:<module>:41 - Scheduler başlatıldı. Her gün saat 15:00'de çalışacak.
+2025-04-27 18:49:07 | INFO     | __main__:<module>:44 - Başlangıç verisi çekiliyor...
+2025-04-27 18:49:07 | INFO     | app.scraper.service:scrape_and_save:23 - Veri çekme işlemi başlatılıyor...
+2025-04-27 18:49:08 | INFO     | app.utils.geocode:get_coordinates_from_google_maps_url:168 - Kısaltılmış URL tespit edildi: https://goo.gl/maps/uV85kLLfjTV8vAfC8
+2025-04-27 18:49:09 | INFO     | app.utils.geocode:get_coordinates_from_google_maps_url:173 - URL yönlendirmesi: https://www.google.com.tr/maps/place/%C3%87%C4%B1nla+Eczanesi/@39.5958847,27.0210671,17z/data=!3m1!4b1!4m5!3m4!1s0x14b0c8258f00a67f:0x4eecfe7b26594e9c!8m2!3d39.5958823!4d27.0232541?hl=tr&shorturl=1
+2025-04-27 18:49:09 | INFO     | app.utils.geocode:get_coordinates_from_google_maps_url:183 - Kısaltılmış URL'den koordinatlar bulundu: (39.5958847, 27.0210671)
+2025-04-27 18:49:09 | INFO     | app.utils.geocode:get_coordinates_from_google_maps_url:168 - Kısaltılmış URL tespit edildi: https://goo.gl/maps/hkvRYnyFcz4pebuG6
+2025-04-27 18:49:10 | INFO     | app.utils.geocode:get_coordinates_from_google_maps_url:173 - URL yönlendirmesi: https://www.google.com.tr/maps/place/G%C3%9CNE%C5%9E+ECZANES%C4%B0/@39.6003133,26.989561,17z/data=!3m1!4b1!4m5!3m4!1s0x14b0c80f50408d9d:0xe257c9836d46425d!8m2!3d39.6003086!4d26.9917687?hl=tr&shorturl=1
+2025-04-27 18:49:10 | INFO     | app.utils.geocode:get_coordinates_from_google_maps_url:183 - Kısaltılmış URL'den koordinatlar bulundu: (39.6003133, 26.989561)
+2025-04-27 18:49:10 | INFO     | app.scraper.service:scrape_and_save:33 - 5 adet eczane verisi çekildi.
+2025-04-27 18:49:10 | INFO     | app.scraper.service:save_to_database:54 - Bugünün tarihi: 2025-04-27
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:95 - Yeni eczane kaydı oluşturuldu: Uygar Eczanesi
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:126 - Yeni nöbetçi eczane kaydı oluşturuldu: Uygar Eczanesi - 2025-04-27
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:95 - Yeni eczane kaydı oluşturuldu: Pelin Deniz Eczanesi
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:126 - Yeni nöbetçi eczane kaydı oluşturuldu: Pelin Deniz Eczanesi - 2025-04-27
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:95 - Yeni eczane kaydı oluşturuldu: Vereseli Çınla Eczanesi
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:126 - Yeni nöbetçi eczane kaydı oluşturuldu: Vereseli Çınla Eczanesi - 2025-04-27
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:95 - Yeni eczane kaydı oluşturuldu: Güneş Eczanesi
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:126 - Yeni nöbetçi eczane kaydı oluşturuldu: Güneş Eczanesi - 2025-04-27
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:95 - Yeni eczane kaydı oluşturuldu: Eylül Eczanesi
+2025-04-27 18:49:12 | INFO     | app.scraper.service:save_to_database:126 - Yeni nöbetçi eczane kaydı oluşturuldu: Eylül Eczanesi - 2025-04-27
+2025-04-27 18:49:12 | INFO     | app.scraper.service:scrape_and_save:38 - Veri çekme ve kaydetme işlemi tamamlandı.
